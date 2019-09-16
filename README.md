@@ -7,10 +7,10 @@ The website allows user to either sign in if they have an account or create a ne
 
 The goal was to create an application with a server using express and have a persistant database. The greatest challenges was understanding the workings of passport local authentication and the workings and location of the database file. Glitch does automatically update with a database file so the file was not visible till the code was pushed and then pulled. I chose passport local authentication and lowdb database for the authentication and database because they were discussed in class and I have no other knowledge of other authentication systems nor databases. I used PURE as it had a template layout I liked. I added a few little things to the CSS such as adding borders to the input and button tags, placing and formatting the table, and placing the canvas item to the right of the inputs.  
 
-Here are some users I created (username, password):
-- admin, iammi
-- winny, iloveanime
-- shine, sunshine
+Here are some users I created:
+username: admin   password: iammi
+username: winny   password: iloveanime
+username: shine   password: sunshine
 
 **Express Middleware Packages**
 - express: used for server framework, making requests like post and get
